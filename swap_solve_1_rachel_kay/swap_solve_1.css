@@ -1,0 +1,97 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: rgb(172, 224, 172);
+}
+
+.welcome-section {
+  background: white;
+  text-align: center;
+  border: 4px solid #ac5e89;
+  border-radius: 10px;
+}
+
+/* Nav menu */
+.vertical-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+/* List rules */
+#first-fruit {
+  font-weight: bold;
+  color: blue;
+}
+
+.dessert-box {
+  flex: 1 1 100%;
+}
+
+.list-box h3 {
+  text-align: center;
+}
+
+.list-box ul {
+  list-style-type: none;
+  border: 4px solid #ac5e89;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0;
+  background: white;
+  text-align: center;
+}
+
+.list-box ul li {
+  padding: 5px;
+}
+
+.list-box ul li:nth-child(even) {
+  background-color: #fce4ec;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 100%;
+  font-size: x-large;
+}
+
+.list-box {
+  flex: 1 1 40%;
+}
+
+.veg-group li {
+  color: darkgreen;
+}
+
+/* Footer */
+footer {
+  background-color: #ac5e89;
+  padding: 1em;
+  margin: 2em;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* Navigation link hover */
+.vertical-menu a {
+  text-decoration: none;
+  color: #29ad0e;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.vertical-menu a:hover {
+  color: #8a496c;
+}
+
+/* List item hover */
+.list-box ul li:hover {
+  background-color: #b6e7be;
+  cursor: pointer;
+}
