@@ -2,7 +2,7 @@
 a repo for george brown material
 
 ## Links
-- [Semester2 COMP1235](./swap_solve_1_rachel_kay)
+- [Semester2 COMP1235](./swap_solve_1_rachel_kay/swap_solve_1.html)
 - [D2L](https://learn.georgebrown.ca)
 - [AtKlass](https://app.atklass.com)
 - [Important Dates](https://www.georgebrown.ca/current-students/important-dates?term=27246&category=131)
